@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #FBFBFB;">
+    <div class="menu" style="display: flex;gap: 5px;padding-bottom: 5px; ">
+    <button style="border: none;background-color: transparent;border-radius: 5px;" id="bold">B</button>
+    <button style="border: none;background-color: transparent;border-radius: 5px;font-style: italic;" id="italic">I</button>
+    <button id="color" style="position:relative;border: none;background-color: transparent;border-bottom: 3px solid;border-color: #393E46;">A<input 
+        style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;padding: 0;outline: none;margin: 0;opacity: 0;" type="color" name="color"
+            id="colorPicker" placeholder="test" value="#393E46"></button>
+    <div class="toolbar" style="display: flex;gap: 5px;">
+        <input id="size" aria-label="size" type="number" min="1" value="10" style="width: 40px;">
+    </div>
+    <button style="border: none;background-color: transparent;" id="download">download</button>
+
+</div>
+    
+    <div id="tableContainer"></div>
+    <script src="./excel-table.umd.cjs"></script>
+    <script defer src="./mr-excel-editor.min.js"></script>
+</body>
+
+</html>
