@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "rollup": "rollup -c",
+    "build": "vite build src"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^2.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.34.7",
+    "vite": "^6.1.0"
+  }
+}
